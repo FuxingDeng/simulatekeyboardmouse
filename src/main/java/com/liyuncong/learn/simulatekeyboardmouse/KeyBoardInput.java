@@ -16,7 +16,7 @@ public class KeyBoardInput {
 		RemoteWebDriver driver = new FirefoxDriver();
 
         // Go to the Google Suggest home page
-        driver.get("https://www.baidu.com/index.php?tn=monline_3_dg");
+        driver.get("https://pbank.psbc.com/pweb/prelogin.do?_locale=zh_CN&BankId=9999");
         
         driver.executeScript("window.focus();");
         
